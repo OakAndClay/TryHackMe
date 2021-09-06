@@ -16,7 +16,7 @@
 * Devices establish a connection and begin to transfer data.
 
 ## 4) Transport
-**Segments**
+#### Segments
 ### TCP - Transport Control Protocol
 * Used for tranmitting data that needs to be accurate
 * Designed with *reliability* and *guarantee*
@@ -27,7 +27,7 @@
 * Ok for things like video streaming. It's no big deal if a couple pixels are missing.
 
 ## 3) Network
-**Packets**
+#### Packets
 * Determines the optimal path for data to travel from one node to another.
     - Shortest
     - Most Reliable
@@ -39,7 +39,7 @@
 ### RIP - Routing Information Protocol
 
 ## 2) Data Link
-**Frames**
+#### Frames
 * Repsonsible for presenting data in a format suitable for tranmission
 * Uses MAC address to make routing decisions.
 * ARP tables are formed - Assigning IP addresses to device MAC addresses.
@@ -47,4 +47,5 @@
     -  MAC addresses physically burnt in. Can not be physically changed.
 
 ## 1) Physical
-**Bits**
+#### Bits
+* This layer consists of the electrical binary signal of 1's and 0's and there medium of transport (ethernet cables)
